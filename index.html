@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+<!-- tailwindcss -->
+<link rel="stylesheet" href="./css/output.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<main class="flex">
+  <!-- left box -->
+  <div class="flex-1 sm:mx-36 my-16">
+    <!-- logo -->
+   <div class=" mx-10 ">
+    <img src="./images/logo.svg" alt="logo">
+   </div>
+   <!-- image for mobile view only -->
+   <div class="sm:hidden mt-10">
+    <img src="./images/hero-mobile.jpg" width="480" alt="hero">
+   </div>
+   <!-- content -->
+   <div class=" mx-10 mt-16 sm:mt-32">
+     <!-- heading -->
+     <h1 class="text-7xl font-600 uppercase tracking-[.7rem] text-center sm:text-left"><span class="font-300 text-DesaturatedRed">We're</span><br> coming <br> soon</h1>
+     <p class="font-400 text-lg mt-5 sm:mt-10 text-DesaturatedRed text-center sm:text-left">Hello fellow shoppers! We're currently building our new fashion store.
+      Add your email below to stay up-to-date with announcements and our launch deals.</p>
+   </div>
+
+  <div class="mt-10 relative w-96 mx-auto sm:ms-10">
+    <input type="email"
+     name="email"
+     class="border-1 border-SoftRed text-black px-6 py-2.5 w-96 rounded-full outline-none "
+     id="email"
+     placeholder="Email Address">
+ 
+     <span class="rounded-full flex items-center justify-center bg-gradient-to-br  from-[#eccdcd] via-[#f8bfbf] to-[#ee8c8c] h-12 w-20 absolute right-0 bottom-0.5 cursor-pointer" id="submit">
+      <img src="./images/icon-arrow.svg" alt="icon-arrow.svg">
+     </span>
+     <div class="absolute right-24 bottom-2.5 errorMsg"><img src="./images/icon-error.svg" alt="error"></div>
+  </div>
+  <small class="text-SoftRed ms-16 text-sm  sm:ms-12 errorMsg">
+    Please provide valid email
+  </small>
+  </div>
+  <!-- left box end -->
+  <!-- right box -->
+  <div class="hidden sm:block">
+    <img src="./images/hero-desktop.jpg" alt="hero-desktop">
+  </div>
+   <!-- right box end -->
+</main>
+  
+
+  
+
+  
+  
+  <footer>
+    <!-- <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.  -->
+      <!-- Coded by <a href="#"></a>. -->
+    </p>
+  </footer>
+  <script src="./js/main.js"></script>
+</body>
+</html>

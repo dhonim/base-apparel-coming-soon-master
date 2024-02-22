@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.border-1{
+    border-width: 1px;
+}
+.gradient1{
+    background: linear-gradient(135deg, from hsl(0, 0%, 100%), to hsl(0, 100%, 98%));
+}
+.gradient2{
+    background: linear-gradient(135deg, from hsl(0, 80%, 86%), to hsl(0, 74%, 74%));
+}
+.font-300{
+    font-weight: 300;
+}
+.font-400{
+    font-weight: 400;
+}
+.font-600{
+    font-weight: 600;
+}
+.errorMsg{
+    display: none;
+}
